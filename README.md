@@ -2,6 +2,8 @@
 React with Redux
 
 ## Initial Project
-`npx create-react-app .\redux-world\`
-`npm install react-router-dom`
-`npm install axios`
+Run `npx create-react-app .\redux-world\`
+
+Run `npm install react-router-dom`
+
+Run `npm install axios`
