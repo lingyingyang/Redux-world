@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 // v1.0
 // import Axios from 'axios';
-import { connect } from 'react-redux';
+import { connect } from 'react-redux'
+import { deletePost } from '../actions/postActions'
 
 /**
  * v1.0 retrieve data via axios
@@ -66,7 +67,7 @@ const mapStateToProps = (state, ownProps) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        deletePost: (id) => { dispatch({ type: "DELETE_POST", id: id }) }
+        deletePost: (id) => { dispatch(deletePost(id)) }
     }
 }
 
